@@ -322,3 +322,45 @@ html,body{
     transform: rotateY(360deg);
   }
 }
+
+@media (max-width:1000px){
+  .page1 > .integration_heading > h1 {
+  
+  width: 70vw !important;
+  }
+  .page{
+    padding: 24px 10px;
+  }
+  .integration_container{
+    align-items: center;
+    flex-direction: column;
+  }
+  .page1 .integration_container .left_container{
+  width: 100% !important;
+  }
+}
+
+@media (max-width:620px){
+  .page1 > .integration_heading > h1 {
+  
+    width: 100vw !important;
+    }
+
+    .page1 .integration_container .left_container{
+    padding: 20px 8px;
+      }
+
+    .page1 .integration_container .right_container{
+      width: 100%;
+    }
+
+    .page1 > .integration_heading > h1{
+      margin-left: 5px !important;
+    }
+}
+
+@media (max-width:400px){
+  .filters-content .grid{
+    margin-left: 0% !important;
+  }
+}
